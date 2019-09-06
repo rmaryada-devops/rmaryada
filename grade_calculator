@@ -1,0 +1,13 @@
+score = int(input("Enter your score between 1 and 100 : "))
+if score > 101:
+    print("This is not a valid score")
+if score >=70:
+    print("This is Grade A")
+elif score >=60:
+    print("This is Grade B")
+elif score >=50:
+    print("This is Grade C")
+elif score <=25:
+    print("This is Failed" )
+else:
+    print("Please redo Exam")
